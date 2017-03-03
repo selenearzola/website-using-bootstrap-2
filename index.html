@@ -1,0 +1,172 @@
+<!doctype html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+	<head>
+		  <meta charset="utf-8">
+		  <title>Bootstrap Website example by Selene Arzola</title>
+		  <meta name="description" content="bootstrap,jquery">
+		  <meta name="author" content="Bootstrap Website example by Selene Arzola">
+		
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+<body>
+	
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a href="index.html" class="brand"> Company Name</a>
+						<a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					<div class="collapse nav-collapse">
+						<form  action="" class="navbar-search pull-right">
+							<input  type="text" class="search-query" placeholder="search..."/>
+						</form>
+						<ul class="nav pull-right">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="about.html">About us</a></li>
+							<li><a href="" data-toggle="modal" data-target="#modal-contact-form"> Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> <!-- END navbar-->
+
+	<!-- MODAL Contact us-->
+
+		<div class="modal hide fade" id="modal-contact-form">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal">&times;</button>
+				<h3>Contact us</h3>
+			</div>
+			<div class="modal-body">
+				<form action="" class="form-horizontal">
+					<div class="control-group">
+						<label for="contact-name" class="control-label">Name:</label>
+						<div class="controls">
+							<input type="text" id="contact-name">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="contact-email" class="control-label">Email:</label>
+						<div class="controls">
+							<input type="email" id="contact-email">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="contact-message" class="control-label">Message:</label>
+						<div class="controls">
+							<textarea name="contact-message" id="" cols="30" rows="10"></textarea>
+						</div>
+					</div>
+
+					<div class="control-group">
+						<div class="controls">
+							<input type="submit" class="btn btn-primary" value="Send Message"/>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<a href="" data-dismiss="modal" class="btn">Cancel</a>
+			</div>
+		</div><!-- END modal Contact us-->
+
+	<!-- SECTION Featured product-->
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="span4">
+					<h1>Featured Product</h1>					
+						<p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>	
+							<div class="c-cta">
+								<div class="btn-group">
+								<a href="" class="btn btn-info btn-large">Buy Now</a>
+								<a href="" class="btn btn-large">Free Trial</a>
+								</div>
+							</div>
+							<p><a href="">Read more about the product &raquo;</a></p>
+					</div>				
+					<div class="span8">
+						<img src="img/website/tuts-hub.jpg" alt="Tuts+hub">
+					</div>
+				</div>
+					<hr />
+			</div><!-- END container-->
+		</section>
+	<!-- COMPANY info-->		
+		<div class="container">
+			<section>
+				<h3> The Company</h3>
+					<div class="row">
+						<div class="span8">
+							
+							<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.</p>
+							<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+						</div>
+						<div class="span4">
+							<p class="well well-large lead text-center">This is a great company!! It will be remmenbered for years to come.</p>
+						</div>
+					</div>
+			</section>
+
+		<!-- TESTIMONIALS -->
+		<h3>Testimonials</h3>
+			<div class="carousel slide" id="testimonials">
+				<ol class="carousel-indicators">
+					<li data-target="#testimonials" data-slide-to="0" class="active"></li>
+					<li data-target="#testimonials" data-slide-to="1"></li>
+					<li data-target="#testimonials" data-slide-to="2"></li>
+				</ol>
+					<div class="carousel-inner">
+							<div class="item active">
+								<blockquote>
+									<p>This is Testimonial 1</p>
+									<small>Selene Arzola</small>
+								</blockquote>
+							</div>
+							<div class="item">
+								<blockquote>
+									<p>This is Testimonial 2</p>
+									<small>Selene Arzola</small>
+								</blockquote>
+							</div>
+							<div class="item">
+								<blockquote>
+									<p>This is Testimonial 3</p>
+									<small>Selene Arzola</small>
+								</blockquote>
+							</div>
+					</div>
+			</div><!-- END carousel-->
+		<hr />
+			<section>
+				<p class="lead text-center">Wanna get in touch? Email us at <a href="">selene.arzola@gmail.com</a></p>
+				<hr />
+				<ul class="inline text-center">
+					<li><strong>Follow us on:</strong></li>
+					<li><a href="">Twitter</a></li>
+					<li><a href="">Facebook</a></li>
+					<li><a href="">Linkedin</a></li>
+				</ul>
+				<p class="text-center muted">&copy; Copyright Selene Arzola</p>
+
+			</section>
+		</div><!-- END container-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>		
+	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
