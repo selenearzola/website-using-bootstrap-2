@@ -1,3 +1,1 @@
-# bootstrap-2-website
-This is my first template created using he Bootstrap Framework v2.3.1
-Link: https://selenearzola.github.io/website-using-bootstrap-2
+I've publish this repository using GitHubPages, [visit] (https://selenearzola.github.io/website-using-bootstrap-2)
